@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesvirin Taninmasi</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/mobilenet"></script>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Rubik:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Great+Vibes&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1 id="h1">Basic AI with JavaScript</h1>
+    <div class="ImageFlex">
+        <div class="ImageSelect">
+            <input
+                class="block w-100  text-gray-1000 border border-gray-300 rounded-lg cursor-pointer bg-gray-50 dark:text-gray-400 focus:outline-none dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400"
+                id="imageInput" accept="image/*" type="file">
+            <button  class="button-78" onclick="classifyImage()">Tesviri Yoxla</button>
+            <div class="Result"> <h1>Nəticə</h1> <p id="predictionResult"></p></div>
+        </div>
+        <div class="Image"> <img id="selectedImage"></div>
+    </div>
+  <span>Designed by Ilkin</span>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

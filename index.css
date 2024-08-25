@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url("blob-scene-haikei\ \(1\).png");
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+#h1{
+    color: aliceblue;
+    font-size:40px;
+    font-family: 'Fjalla One', sans-serif; 
+    text-align: center;
+    margin:20px auto;
+}
+.ImageSelect{
+    width:50%;
+    border-radius: 20px;
+    background-image: url("gray-concrete-wall.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+    }
+    .Image{
+        width:70%;
+        border: 2px solid black;
+        }
+    .ImageFlex{
+        width:80%;
+        display: flex;
+        border:10px solid rgb(6, 110, 237);
+        border-radius: 20px;
+    margin:20px auto;
+    }
+    #imageInput{
+        margin:100px auto;
+        height: fit-content;
+    }
+    .button-78 {
+      align-items: center;
+      appearance: none;
+      background-clip: padding-box;
+      background-color: initial;
+      background-image: none;
+      border-style: none;
+      box-sizing: border-box;
+      color: #fff;
+      cursor: pointer;
+      display: inline-block;
+      flex-direction: row;
+      flex-shrink: 0;
+      font-family: Eina01,sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      justify-content: center;
+      line-height: 24px;
+      margin: 0;
+      min-height: 64px;
+      outline: none;
+      overflow: visible;
+      padding: 19px 26px;
+      pointer-events: auto;
+      position: relative;
+      text-align: center;
+      text-decoration: none;
+      text-transform: none;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+      vertical-align: middle;
+      width: auto;
+      word-break: keep-all;
+      z-index: 0;
+      margin-left:150px;
+      position: relative;
+      bottom: 50px;
+    }
+    
+    @media (min-width: 768px) {
+      .button-78 {
+        padding: 19px 32px;
+      }
+    }
+    .button-78:before,
+    .button-78:after {
+      border-radius: 80px;
+    }
+    .button-78:before {
+      background-image: linear-gradient(92.83deg, rgb(38, 154, 255) 0, rgb(75, 26, 234) 100%);
+      content: "";
+      display: block;
+      height: 100%;
+      left: 0;
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -2;
+    }
+    .button-78:after {
+      background-color: initial;
+      background-image: linear-gradient(#2c6dc7 0, #0c0d0d 100%);
+      bottom: 4px;
+      content: "";
+      display: block;
+      left: 4px;
+      overflow: hidden;
+      position: absolute;
+      right: 4px;
+      top: 4px;
+      transition: all 100ms ease-out;
+      z-index: -1;
+    }
+    .button-78:hover:not(:disabled):before {
+      background: linear-gradient(92.83deg, rgb(38, 201, 255) 0%, rgb(57, 19, 249) 100%);
+    }
+    .button-78:hover:not(:disabled):after {
+      bottom: 0;
+      left: 0;
+      right: 0;
+      top: 0;
+      transition-timing-function: ease-in;
+      opacity: 0;
+    }
+    .button-78:active:not(:disabled) {
+      color: #ccc;
+    }
+    .button-78:active:not(:disabled):before {
+      background-image: linear-gradient(0deg, rgba(0, 0, 0, .2), rgba(0, 0, 0, .2)), linear-gradient(92.83deg, #ff7426 0, #f93a13 100%);
+    }
+    .button-78:active:not(:disabled):after {
+      background-image: linear-gradient(#541a0f 0, #0c0d0d 100%);
+      bottom: 4px;
+      left: 4px;
+      right: 4px;
+      top: 4px;
+    }
+    .button-78:disabled {
+      cursor: default;
+      opacity: .24;
+    }
+#selectedImage{
+    width: 100%;
+    height:100%;
+    box-sizing: border-box;
+}
+.Result{
+    width: 100%;
+    height: 200px;
+    background-color: rgb(196, 223, 255);
+    background-image: url("gray-concrete-wall.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    border-top: 2px solid black;
+}
+p{
+font-size: 20px;
+    font-family: 'Great Vibes', cursive;
+font-family: 'Rubik', sans-serif;
+}
+.Result h1{
+    font-size:40px;
+    font-family: 'Fjalla One', sans-serif;
+}
+span{
+    color: white;
+    text-align: center;
+    font-size:24px;
+    position: relative;
+    left:40%;
+    font-family: 'Great Vibes', cursive;
+font-family: 'Rubik', sans-serif;
+}
